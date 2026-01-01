@@ -1,0 +1,5 @@
+{
+  "name": "CISA Cyber Threat Auto-Analyst",
+  "description": "An AI-powered automation workflow that scans for critical cybersecurity threats released in the last 7 days and generates formal CISA advisories.",
+  "requestFramePermissions": []
+}
