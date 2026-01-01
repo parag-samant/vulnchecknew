@@ -58,6 +58,8 @@ npm run build
 
 The application uses:
 - **Base URL**: `/vulnchecknew/` (configured in `vite.config.ts`)
+  - Can be overridden by setting `BASE_URL` environment variable
+  - For local development with root path, set `BASE_URL=/`
 - **API Key**: Injected at build time from environment variable
 - **Port**: 3000 (development server)
 

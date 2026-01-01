@@ -4,8 +4,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
+    // Use BASE_URL from environment or default to '/vulnchecknew/' for GitHub Pages
+    const baseUrl = env.BASE_URL || '/vulnchecknew/';
     return {
-      base: '/vulnchecknew/',
+      base: baseUrl,
       server: {
         port: 3000,
         host: '0.0.0.0',
